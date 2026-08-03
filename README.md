@@ -8,7 +8,8 @@ Bu proje, sürücülerin direksiyon başında uyuyakalması veya dikkatinin dağ
 
 ## Proje Demosu
 
-![Sürücü Yorgunluk Sistemi Demosu]<img width="800" height="447" alt="surucu_test_demo" src="https://github.com/user-attachments/assets/102a0afe-eb8b-434c-8c49-2992f247af24" />
+
+<img width="800" height="447" alt="surucu_test_demo" src="https://github.com/user-attachments/assets/e885e209-5de1-413d-b41e-7ef385d8cacc" />
 
 
 **Detaylı Test ve Çalışma Videosu:**
