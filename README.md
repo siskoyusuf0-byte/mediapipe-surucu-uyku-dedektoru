@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" />
 </p>
 
-Bu proje, sürücülerin direksiyon başında uyuyakalması veya dikkatinin dağılması gibi tehlikeli durumları önlemek amacıyla geliştirilmiş gerçek zamanlı bir Sürücü İzleme Sistemidir (Driver Monitoring System - DMS). Kamera üzerinden alınan görüntüler işlenerek sürücünün yüz ve göz durumu analiz edilir, tehlike anında Arduino üzerinden gecikmesiz olarak sesli ve görsel uyarı verilir.
+Bu proje, sürücülerin direksiyon başında uyuyakalması veya dikkatinin dağılması gibi tehlikeli durumları önlemek amacıyla geliştirilmiş gerçek zamanlı bir Sürücü İzleme Sistemidir. Kamera üzerinden alınan görüntüler işlenerek sürücünün yüz ve göz durumu analiz edilir, tehlike anında Arduino üzerinden gecikmesiz olarak sesli ve görsel uyarı verilir.
 
 ---
 
@@ -60,3 +60,20 @@ Arduino bağlantılarını aşağıdaki şemaya göre yapabilirsiniz:
 **1. Gerekli kütüphaneleri yükleyin:**
 ```bash
 pip install opencv-python mediapipe pyserial
+```
+**2. Arduino kodunu yükleyin:**
+Depoda bulunan arduino_uyari_sistemi.ino dosyasını Arduino IDE üzerinden geliştirme kartınıza yükleyin.
+
+**3. Sistemi başlatın:**
+Kodu çalıştırmadan önce Arduino'nun bağlı olduğu portu (örneğin COM5) Python kodunda doğrulayın ve ardından programı çalıştırın:
+```bash
+python surucu_yorgunluk_tespiti.py
+```
+## Gelecek Geliştirmeler
+Bu proje temel bir konsept kanıtı niteliğindedir. İlerleyen aşamalarda sisteme entegre edilebilecek özellikler:
+
+* Esneme tespiti için ağız açıklık analizinin eklenmesi.
+
+* Sistemin masaüstü bilgisayar yerine Raspberry Pi gibi taşınabilir bir gömülü sistem üzerinde (araç içi kamera formatında) bağımsız çalıştırılması.
+
+* Gece sürüşleri için kızılötesi kamera desteği sağlanması.
