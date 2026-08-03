@@ -1,11 +1,6 @@
-<h1 align="center">Sürücü Yorgunluk ve Uyku Tespit Sistemi (DMS)</h1>
+<h1 align="center">Sürücü Yorgunluk ve Uyku Tespit Sistemi </h1>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenCV-4.9.0-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
-  <img src="https://img.shields.io/badge/MediaPipe-00979D?style=for-the-badge&logo=google&logoColor=white" />
-  <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" />
-</p>
+
 
 Bu proje, sürücülerin direksiyon başında uyuyakalması veya dikkatinin dağılması gibi tehlikeli durumları önlemek amacıyla geliştirilmiş gerçek zamanlı bir Sürücü İzleme Sistemidir. Kamera üzerinden alınan görüntüler işlenerek sürücünün yüz ve göz durumu analiz edilir, tehlike anında Arduino üzerinden gecikmesiz olarak sesli ve görsel uyarı verilir.
 
